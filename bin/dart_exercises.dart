@@ -1,3 +1,4 @@
+// Bakery receipt calculation script
 void main() {
 
   String customerName = 'Lorreine Cama Boncodin';
@@ -20,7 +21,7 @@ void main() {
   bool qualifiesForBulkDiscount = totalBreadItems >= 5;
   bool isHighValueOrder = finalTotal > 200.0;
 
-    
+
   print('==========================================');
   print('       BAKERY ORDER SUMMARY RECEIPT       ');
   print('==========================================');
