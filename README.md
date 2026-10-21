@@ -1,7 +1,7 @@
 # Week 7: Dart Fundamentals Exercises
 
 **Student Name:** Lorreine Cama Boncodin  
-**Course & Section:** PC16 - Mobile Development w/ Lab  
+**Course & Section:** PC16 - Mobile Development w/ Lab  3.4BSIT
 **Institution:** National Teachers College  
 
 ## Scenario Description
