@@ -1,21 +1,49 @@
-# Week 8: Dart Programming Fundamentals (Part 2) - Logic Problem Set
+# PC16 - Mobile Development Exercises
 
 **Student Name:** Lorreine Cama Boncodin  
 **Course & Section:** PC16 - Mobile Development w/ Lab 3.4BSIT  
 **Institution:** National Teachers College  
 
-## Overview
-This activity demonstrates structured Dart logic constructs including conditional statements (`if/else`), loops (`for`), custom functions returning values, and graceful error handling (`try/catch`).
+---
 
-## Logic Features Implemented
-- **Conditionals (`if/else`):** Checks item quantities for zero/negative values and applies bulk discount rules[cite: 15, 16].
-- **Loop (`for`):** Iterates through batch order item lists[cite: 15, 16].
-- **Function:** `processBakeryBatch()` accepts order lists and unit price parameters, returning the calculated total batch cost[cite: 15, 16].
-- **Error Handling (`try/catch`):** Catches non-integer format exceptions gracefully without terminating execution[cite: 15, 16].
+## Week 7: Dart Fundamentals (Variables, Data Types, Operators & I/O)
 
-## How to Run
+### Scenario Description
+A Dart console program processing a bakery checkout order. It demonstrates explicit variable declarations (`int`, `double`, `String`, `bool`), arithmetic operations, comparison operators, integer division (`~/`), and modulo (`%`).
+
+### How to Run Week 7 Code
+Tingnan ang lumang commit history o i-check ang `bin/dart_exercises.dart`.
+
+---
+
+## Week 8: Dart Fundamentals (Conditionals, Loops, Functions & Error Handling)
+
+### Scenario Description
+An upgraded bakery batch processing system demonstrating structured Dart logic constructs including conditional statements (`if/else`), loops (`for`), custom functions returning values, and graceful error handling (`try/catch`).
+
+### How to Run
 ```bash
 dart run
+
+==========================================
+       BAKERY ORDER SUMMARY RECEIPT       
+==========================================
+Customer Name: Lorreine Cama Boncodin
+Items Ordered: 7 pieces
+Unit Price per Item: ₱35.50
+Subtotal: ₱248.50
+------------------------------------------
+Packaging Info:
+- Full Trays Used (3 items/tray): 2
+- Leftover Loose Items: 1
+------------------------------------------
+VIP Membership Active: true
+Discount Applied: ₱24.85
+Final Total Payable: ₱223.65
+------------------------------------------
+Qualifies for Bulk Discount (>= 5 items): true
+Is High-Value Order (> ₱200): true
+==========================================
 
 ==============================================
      WEEK 8: BAKERY BATCH PROCESSING SYSTEM   
