@@ -12,7 +12,7 @@
 A Dart console program processing a bakery checkout order. It demonstrates explicit variable declarations (`int`, `double`, `String`, `bool`), arithmetic operations, comparison operators, integer division (`~/`), and modulo (`%`).
 
 ### How to Run Week 7 Code
-Tingnan ang lumang commit history o i-check ang `bin/dart_exercises.dart`.
+View previous commit history to check Week 7 source code. `bin/dart_exercises.dart`.
 
 ---
 
